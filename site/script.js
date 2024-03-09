@@ -15,3 +15,22 @@ function abrirMenu(){
 }
 
 listras.addEventListener("click", abrirMenu);
+
+function abrirSubMenu(){
+    if (this.classList.contains("submenu-active")){
+        this.classList.remove("submenu-active");
+    } else if(menu.querySelector(".submenu-active")){ /*no querySelector deve informar se é classe ou id*/
+        menu.querySelector(".submenu-active").classList.remove("submenu-active"); /*classlist é sempre para classe*/
+        this.classList.add("submenu-active");
+    }
+    
+    else{
+        this.classList.add("submenu-active");
+    }
+}
+
+for (let item of itens){
+    if (item.querySelector(".submenu")){
+        item.addEventListener("click", abrirSubMenu);
+    }
+}
