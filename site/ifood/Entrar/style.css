@@ -16,6 +16,7 @@ body{
     margin-top: 100px;
     width: 450px;
     border: 1px solid gray;
+    border-radius: 5%;
     display: block;
     align-items: center;
     justify-content: center;
@@ -66,7 +67,7 @@ button{
 }
 #facebook{
     color: white;
-    background-color: burlywood;
+    background-color: blue;
     justify-content: space-between;
     padding: 10px;
     border: none;
