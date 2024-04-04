@@ -56,7 +56,10 @@ main{
     justify-content: center;
     align-items: center;
 }
-
+.produtos{
+    border: gray;
+    border-radius: 5%;
+}
 .produtos-lista{
     align-items: center;
     border: gray;
