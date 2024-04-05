@@ -1,7 +1,8 @@
 body{
     background-color: white;
     font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
+    margin-top: 0;
+    
 }
 
 nav{
@@ -9,13 +10,13 @@ nav{
     position: fixed;
     display: flex;
     justify-content: space-around;
-    margin: 0em 0em 1em 0em;
+    margin: 0em 0em 0em 0em;
     padding: 1em 3em;
     width: 100%;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-ul{
+nav ul{
     list-style: none;
     display: flex;
     position: relative;
@@ -23,7 +24,7 @@ ul{
     margin-right: 2em;
 }
 
-li{
+nav ul li{
     padding: 1em;
 }
 .menu{
@@ -47,21 +48,70 @@ button{
 main{
     display: block;
     position: relative;
-    
+    margin-top: 15em;
+
 }
 
 .busca{
     
     display: block;
+    position: relative;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
+
 .produtos{
-    border: gray;
-    border-radius: 5%;
+    padding: 1em;
+    justify-content: space-between;
+    position: relative;
 }
-.produtos-lista{
+
+.produtos-lista ul{
+    list-style: none;
+    display: flex;
+    position: relative;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+.produtos-lista li{
+    list-style: none;
     align-items: center;
-    border: gray;
-    border-radius: 5%;
+    border: solid gray 0.1em;
+    border-radius: 35%;
+    padding: 0.5em;
 }
+
+.listas{
+    display: flex;
+    justify-content: space-around;
+}
+ .listas ul{
+    list-style: none;
+    display: block;
+ }
+
+ .listas ul li{
+    padding: 1em;
+ }
+
+ .institucional{
+    display: flex;
+    padding: 0.5em;
+ }
+
+ .institucional-textos{
+    display: block;
+    flex-wrap: wrap;
+ }
+
+ .institucional-listas{
+    display: flex;
+    justify-content: space-between;
+ }
+    
+.institucional-listas ul{
+    list-style: none;
+    display: flex;
+    position: relative;
+ }
