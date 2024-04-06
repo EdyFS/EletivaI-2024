@@ -63,6 +63,7 @@ main{
 
 .produtos{
     padding: 1em;
+    display: flex;
     justify-content: center;
 }
 
@@ -70,16 +71,13 @@ main{
     display: flex;
     position: relative;
     padding: 0.5em;
-    justify-content: space-around;
-    width: 45em;
-    
-    
+    justify-content: center;
+    width: 40em;
     flex-wrap: wrap;
    
 }
 .produtos-lista li{
     list-style: none;
-   
     border: solid gray 0.1em;
     border-radius: 35%;
     margin: 0.5em;
