@@ -1,0 +1,13 @@
+body{
+    margin: 0;
+}
+nav{
+    background-color: red;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+nav ul{
+    list-style: none;
+}
