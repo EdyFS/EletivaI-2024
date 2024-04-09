@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 nav{
     background-color: red;
@@ -10,4 +11,125 @@ nav{
 
 nav ul{
     list-style: none;
+}
+
+.apresentacao{
+    background-color: red;
+    color: white;
+    display: flex;
+    padding: 2em;
+    justify-content: space-around;
+}
+
+#pede{
+    background-color: white;
+    color: red;
+    padding: 1em;
+    border-radius: 5%;
+    border: none;
+}
+
+.texto1{
+    display: block;
+    width: 40em;
+    margin: 2em;
+}
+
+.texto1 h1{
+    font-size: 3em;
+}
+
+.texto1 p{
+    font-size: 1.5em;
+
+}
+#saiba{
+    background-color: white;
+    color: red;
+    padding: 1em;
+    border-radius: 5%;
+    border: none;
+    font-size: 1em;
+}
+
+.conheca{
+    background-color: white;
+    display: block;
+    padding: 2em;
+    justify-content: space-around;
+}
+
+.conheca h1{
+    font-size: 3em;
+    color: red;
+}
+
+.conheca p{
+    color: black;
+    font-size: 2em;
+}
+
+.conheca button{
+    background-color: red;
+    color: white;
+    padding: 1em;
+    border: none;
+    border-radius: 5%;
+    font-size: 1em;
+}
+
+.rotinas{
+    display: flex;
+}
+
+.impacto{
+    display: flex;
+}
+
+.news{
+    background-color: whitesmoke;
+    color: black;
+    display: block;
+    justify-content: center;
+}
+
+.news button{
+    background-color: red;
+    color: white;
+    padding: 1em;
+    border: none;
+    border-radius: 5%;
+    font-size: 1em;
+}
+
+footer{
+    background-color: red;
+    color: white;
+    display: block;
+    padding: 2em 2em 0em 2em;
+}
+
+.lista{
+    display: flex;
+}
+
+.lista ul{
+    list-style: none;
+    justify-content: space-around;
+    padding: 1em;
+    
+}
+
+.lista ul li{
+    padding: 1em;
+    text-wrap: wrap;
+}
+
+.institucional{
+    background-color: darkred;
+    width: 100%;
+    margin: 2em 0em 0em 0em;
+    padding: 2em;
+    display: flex;
+    justify-content: space-around;
 }
