@@ -13,6 +13,7 @@ nav{
     padding: 1em 3em;
     width: 100%;
     font-family: Arial, Helvetica, sans-serif;
+    z-index: 1000;
 }
 
 nav ul{
@@ -54,6 +55,11 @@ main{
     justify-content: center;
     align-items: center;
     text-align: center;
+    z-index: 100;
+}
+
+.busca h1{
+    font-size: 3em;
 }
 
 #pesquisa{
@@ -93,7 +99,8 @@ main{
 .blocos-grandes{
     display: flex;
     justify-content: center;
-    color: white; 
+    color: white;
+
 }
 
 .blocos-pequenos{
@@ -102,20 +109,37 @@ main{
     padding: 1em;
 }
 
-#bloco1{
+.bloco1{
+    display: flex;
     background-color: red;
-    margin: 0.5em;
+    margin: 0.75em;
     padding: 1em;
     border-radius: 10%;
-    width: 10em;
+    width: 20em;
 }
 
-#bloco2{
+.bloco1texto{
+    display: block;
+}
+
+#hamburguer{
+    margin-bottom: 0;
+}
+.bloco2{
+    display: flex;
     background-color: olivedrab;
-    margin: 0.5em;
+    margin: 0.75em;
     padding: 1em;
     border-radius: 10%;
-    width: 10em;
+    width: 20em;
+}
+
+.bloco2texto{
+    display: block;
+}
+
+#carrinho{
+    margin-bottom: 0;
 }
 
 #restaurante{
@@ -165,31 +189,41 @@ main{
 #pet{
     background-color: purple;
 }
+
 .listas{
     display: flex;
     justify-content: space-around;
+    
 }
 
-S.listas ul{
-    list-style: none;
+.listas ul{
     display: block;
  }
 
- .listas ul li{
+.listas ul li{
     padding: 1em;
+    list-style: none;
  }
 
- .institucional{
+ .social{
+    display: block;
+ }
+
+ .logos{
+    display: flex;
+ }
+
+.institucional{
     display: flex;
     padding: 0.5em;
  }
 
- .institucional-textos{
+.institucional-textos{
     display: block;
     flex-wrap: wrap;
  }
 
- .institucional-lista{
+.institucional-lista{
     display: flex;
     justify-content: space-between;
  }

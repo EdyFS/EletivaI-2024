@@ -106,23 +106,25 @@ footer{
     background-color: red;
     color: white;
     display: block;
-    padding: 2em 2em 0em 2em;
+    
 }
 
 .lista{
     display: flex;
+    padding: 2em 6em;
 }
 
 .lista ul{
     list-style: none;
-    justify-content: space-around;
-    padding: 1em;
+    justify-content: center;
+    padding: 0.5em;
     
 }
 
 .lista ul li{
     padding: 1em;
-    text-wrap: wrap;
+    flex-wrap: wrap;
+    width: 15em;
 }
 
 .institucional{
