@@ -66,7 +66,7 @@ nav ul{
 
 .conheca p{
     color: black;
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 .conheca button{
@@ -75,15 +75,19 @@ nav ul{
     padding: 1em;
     border: none;
     border-radius: 5%;
-    font-size: 1em;
+    font-size: 1.25em;
 }
 
 .rotinas{
     display: flex;
+    margin: 2em;
+    padding: 1em;
 }
 
 .impacto{
     display: flex;
+    margin: 2em;
+    margin: 1em;
 }
 
 .news{
@@ -93,6 +97,19 @@ nav ul{
     justify-content: center;
 }
 
+.blog{
+    display: flex;
+    justify-content: space-around;
+    padding: 2em;
+}
+
+#news{
+    margin: 2em;
+    width: 20em;
+    justify-content: center;
+    text-align: start;
+}
+
 .news button{
     background-color: red;
     color: white;
@@ -100,6 +117,7 @@ nav ul{
     border: none;
     border-radius: 5%;
     font-size: 1em;
+    justify-content: right;
 }
 
 footer{

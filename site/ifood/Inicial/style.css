@@ -46,12 +46,22 @@ button{
 main{
     display: block;
     position: relative;
-    margin-top: 15em;
+    margin-top: 8em;
 }
 
+.comeco{
+    display: block;
+    
+    position: relative;
+}
+.fundo{
+    z-index: 0;
+    position: sticky;
+
+}
 .busca{
     display: block;
-    position: relative;
+    position: sticky;
     justify-content: center;
     align-items: center;
     text-align: center;
