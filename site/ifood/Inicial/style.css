@@ -200,10 +200,61 @@ main{
     background-color: purple;
 }
 
+.restaurantes{
+    display: block;
+}
+
+.melhores{
+    display: grid;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+}
+
+.cards img{
+    padding: 1em;
+}
+
+.mercados{
+    display: block;
+}
+
+.cartoes{
+    display: grid;
+}
+
+.saiba{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.trabalho{
+    display: flex;
+    padding: 2em;
+    
+}
+
+.trabalho-texto{
+    display: block;
+    text-align: center;
+    flex-wrap: wrap;
+    width: 15em;
+}
+
+.trabalho-texto h1{
+    font-size: 2em;
+}
+
+.trabalho-texto button{
+    font-size: 1.25em;
+    padding: 0.5em;
+}
 .listas{
     display: flex;
     justify-content: space-around;
-    
 }
 
 .listas ul{
