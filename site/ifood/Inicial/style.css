@@ -58,8 +58,8 @@ main{
     background-image: image-set("fundo-ifood.jpg");
     background-size: cover;
     background-position: center;
-    height: 58em;
-    padding: 5em 0em 0em 0em;
+    height: 100%;
+    padding: 5em 0em 5em 0em;
     margin: 0;
     display: block; 
     justify-content: center;
@@ -296,6 +296,10 @@ main{
     width: 20em;
 }
 
+#picture{
+    display: none;
+}
+
 .listas{
     display: flex;
     justify-content: space-around;
@@ -344,6 +348,31 @@ main{
     margin: 0.25em;
  }
 
- @media all and (min-width:960px){
+ @media all and (max-width:960px){
+    .itens-lista{
+        display: none;
+    }
+
+    nav{
+        justify-content: space-between;
+        margin: 0em;
+        padding: 0.5em;
+    }
+    p{
+        font-size: 0.75em;
+    }
+
+    h1{
+        font-size: 1em;
+    }
+
+    .saiba{
+        display: block;
+    }
+
+    #picture{
+        display: block;
+        justify-content: center;
+    }
 
  }

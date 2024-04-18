@@ -16,10 +16,10 @@
             <!-- <img src="" alt="Logo do iFood"> -->
             <ul>
                 <li id="listras"><a href="#"><i class="fas fa-bars"></i></a></li>
-                <li>Entregador</li>
-                <li>Restaurante e Mercado</li>
-                <li>Carreiras</li>
-                <li>iFood Card</li>
+                <li class="itens-lista">Entregador</li>
+                <li class="itens-lista">Restaurante e Mercado</li>
+                <li class="itens-lista">Carreiras</li>
+                <li class="itens-lista">iFood Card</li>
             </ul>
         </div>
         <div class="entrar">
@@ -115,9 +115,25 @@
                 </div>
             </div>
             <div class="cards">
-                <img src="almoço.png">
-                <img src="pratos.png">
-                <img src="restaurantes.png">
+                <picture>
+                    <source media="(min-width: 900px)" srcset="almoço.png">
+                    <source media="(max-width: 900px)" srcset="almoço50.png">
+                    <img src="almoço.png">
+                </picture>
+                <picture>       
+                    <source media="(min-width: 900px)" srcset="pratos.png">
+                    <source media="(max-width: 900px)" srcset="pratos50.png">
+                    <img src="pratos.png">
+                </picture>                
+                
+                <picture>
+                    <source media="(min-width: 900px)" srcset="restaurantes.png">
+                    <source media="(max-width: 900px)" srcset="restaurantes50.png">
+                    <img src="restaurantes.png">
+                </picture>
+                
+                
+                
             </div>
         </div>
 
@@ -165,9 +181,20 @@
                 <p>Descubra com é ser um FoodLover e faça parte da nossa revolução!</p>
                 <button>Saiba mais</button>
             </div>
-            <img src="food-lover-banner.png">
+            
+            <picture>
+                <source media="(min-width: 900px)" srcset="food-lover-banner.png">
+                <source media="(max-width: 900px)" srcset="food-lover-banner361.png">
+                <img src="food-lover-banner.png" alt="">
+            </picture>
+
         </div>
         </div>
+        <picture id="picture">
+            <source media="(min-width: 900px)" srcset="">
+            <source media="(max-width: 900px)" srcset="ifood-benefits-mobile450.png">
+            <img src="ifood-benefits-mobile.png" alt="">
+        </picture>
     </main>
     <hr>
     <footer>
