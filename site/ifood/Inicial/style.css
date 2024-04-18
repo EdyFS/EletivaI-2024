@@ -51,25 +51,24 @@ main{
 
 .comeco{
     display: block;
-    
     position: relative;
 }
-.fundo{
-    z-index: 0;
-    position: sticky;
 
-}
 .busca{
-    display: block;
-    position: sticky;
+    background-image: image-set("fundo-ifood.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 58em;
+    padding: 5em 0em 0em 0em;
+    margin: 0;
+    display: block; 
     justify-content: center;
     align-items: center;
     text-align: center;
-    z-index: 100;
 }
 
 .busca h1{
-    font-size: 3em;
+    font-size: 3.5em;
 }
 
 #pesquisa{
@@ -252,6 +251,21 @@ main{
     font-size: 1.25em;
     padding: 0.5em;
 }
+
+.fome{
+    display: flex;
+    padding: 2em;
+    margin: 1em;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.fome_texto{
+    display: block;
+    display: 1em;
+    width: 20em;
+}
+
 .listas{
     display: flex;
     justify-content: space-around;
