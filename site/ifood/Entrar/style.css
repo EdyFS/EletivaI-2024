@@ -2,11 +2,12 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     margin: 0em;
+    position: absolute ;
     
 }
 
 .fundo{
-    background-color: pink;
+    background-color: #fdedee;
     width: 100%;    
     height: 200%;
     margin-left: -30em;
@@ -98,4 +99,87 @@ p{
     background-color: white;
     color: black;
     width: 14em;
+}
+
+@media all and (max-width:960px){
+    body{
+        margin: 0;
+        display: block;
+        position: absolute;
+        
+    }
+    
+    .fundo{
+        margin: -30em 0em 0em 0em;
+        height: 50em;
+        width: 50em;
+        justify-content: center;
+        position: relative;
+        
+    }
+
+    .entrar{
+        border: none;
+        position: relative;
+        display: block;
+        justify-content: center;
+        margin-top: 0em;
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+        align-items: center;
+        text-align: center;
+        padding: 0;
+    }
+
+    h1{
+        font-size: 1.5em;
+        flex-wrap: nowrap;
+        width: 100%;
+        margin: none;
+    }
+
+    p{
+        font-size: 1em;
+        width: 100%;
+        text-align: center;
+        margin: none;
+    }
+
+    .redes{
+        margin: 0.5em;
+        display: block;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        width: 100%;
+        
+    }
+
+    #facebook{
+        width: 100%;
+        margin: 0;
+        position: relative;
+    }
+
+    #google{
+        position: relative;
+        margin: 1em auto;
+    }
+
+    .contatos{
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    #celular{
+        width: 100%;
+    }
+
+    #email{
+        width: 100%;
+    }
+
+
 }

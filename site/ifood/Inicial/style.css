@@ -313,3 +313,7 @@ main{
  .institucional-lista li{
     margin: 0.25em;
  }
+
+ @media all and (min-width:960px){
+
+ }

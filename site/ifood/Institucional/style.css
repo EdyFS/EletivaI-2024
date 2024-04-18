@@ -153,3 +153,7 @@ footer{
     display: flex;
     justify-content: space-around;
 }
+
+@media all and (min-width:960px){
+
+}
