@@ -1,4 +1,5 @@
 body{
+    
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -7,6 +8,7 @@ nav{
     display: flex;
     justify-content: space-around;
     color: white;
+    font-size: 1.25em;
 }
 
 nav ul{
@@ -21,12 +23,47 @@ nav ul{
     justify-content: space-around;
 }
 
+.menu{
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    
+}
+
+.menu li{
+    padding: 2em;
+    justify-content: space-around;
+}
+.submenu{
+    display: none;
+}
+
+.submenu-active{
+    background-color: white;
+}
+
+.submenu-active .submenu{
+    display: block;
+}
+
+.tem-submenu > a::after{
+    font-family: "Font Awesome 5 Free";
+    font-size: 0,75em;
+    line-height: 1em;
+    font-weight: 900;
+    content: "\f078";
+    color: #fff;
+    padding-left: 0.3125em;
+}
+
 #pede{
     background-color: white;
     color: red;
-    padding: 1em;
+    padding: 0em 1em;
     border-radius: 5%;
     border: none;
+    font-size: 1.25em;
+    
 }
 
 .texto1{
@@ -69,7 +106,7 @@ nav ul{
     font-size: 1.5em;
 }
 
-.conheca button{
+.button{
     background-color: red;
     color: white;
     padding: 1em;
@@ -87,7 +124,7 @@ nav ul{
 .impacto{
     display: flex;
     margin: 2em;
-    margin: 1em;
+    padding: 1em;
 }
 
 .news{
@@ -95,19 +132,22 @@ nav ul{
     color: black;
     display: block;
     justify-content: center;
+    padding: 2em;
+    position: relative;
 }
 
 .blog{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 2em;
 }
 
-#news{
+.news0{
     margin: 2em;
     width: 20em;
     justify-content: center;
     text-align: start;
+    border: 0.1em solid gray;
 }
 
 .news button{
@@ -120,11 +160,15 @@ nav ul{
     justify-content: right;
 }
 
+#acesso{
+    position: relative;
+    justify-content: end;
+}
+
 footer{
     background-color: red;
     color: white;
-    display: block;
-    
+    display: block; 
 }
 
 .lista{
@@ -148,12 +192,77 @@ footer{
 .institucional{
     background-color: darkred;
     width: 100%;
-    margin: 2em 0em 0em 0em;
-    padding: 2em;
+    margin: 0em 0em 0em 0em;
+    padding:  2em 0em;
     display: flex;
     justify-content: space-around;
 }
 
-@media all and (min-width:960px){
+@media all and (max-width:960px){
 
+    .texto1 p{
+        font-size: 0.75em;
+    }
+
+    .texto1 h1{
+        font-size: 1em ;
+    }
+
+    #listras{
+        display: none;
+        order: 2;
+    }
+
+    .pede{
+        order: 1;
+        flex-wrap: nowrap;
+        font-size: 1em;
+    }
+
+    .apresentacao{
+        align-items: center;
+    }
+
+    .conheca{
+        align-items: center;
+    }
+
+    .impacto{
+        align-items: center;
+    }
+
+    .button{
+        font-size: 1em;
+        padding: 0.25em;
+    }
+
+    .news h1{
+        font-size: 1em;
+    }
+
+    .news p{
+        font-size: 0.75em;
+    }
+
+    .news0 h1{
+        font-size: 1em;
+    }
+
+    .news0 p{
+        font-size: 0.75em;
+    }
+
+    footer{
+        padding: 0.25em;
+        font-size: 0.75em;
+    }
+
+    .lista{
+        padding: 0.5em;
+        
+    }
+
+    .lista ul{
+        justify-content: start;
+    }
 }

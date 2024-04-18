@@ -12,16 +12,16 @@
 
 <body>
     <nav>
-        <ul>
-            <li>Sobre nós
-                <ul>
+        <ul class="menu">
+            <li class="item tem-submenu">Sobre nós
+                <ul class="submenu">
                     <li>Quem somos</li>
                     <li>Nossos negócios</li>
                     <li>Imprensa</li>
                 </ul>
             </li>
-            <li>Comunidade
-                <ul>
+            <li class="tem-submenu">Comunidade
+                <ul class="submenu">
                     <li>Nosso ecossistema</li>
                     <li>Parceiros</li>
                     <li>Entregadores</li>
@@ -30,8 +30,8 @@
                     <li>iFood Labs</li>
                 </ul>
             </li>
-            <li>Sustentabilidade
-                <ul>
+            <li class="tem-submenu">Sustentabilidade
+                <ul class="submenu">
                     <li>Nossos compromissos</li>
                     <li>Governança</li>
                     <li>Impacto social</li>
@@ -44,6 +44,7 @@
             <li>iFood News</li>
             <li>EN</li>
             <button id="pede">Pede iFood Já!</button>
+            <li id="listras"><a href="#"><i class="fas fa-bars"></i></a></li>
         </ul>
     </nav>
 
@@ -56,7 +57,12 @@
                 vai muito além do delivery.</p>
             <button id="saiba">Saiba mais sobre o iFood</button>
             </div>
-            <img src="hero_home2.png" alt="">
+            <picture>
+                <source media="(min-width: 900px)" srcset="hero_home2.png">
+                <source media="(max-width: 900px)" srcset="hero_home2300.png">
+                <img src="hero_home2.png" alt="">
+            </picture>
+            
         </div>
 
         <div class="conheca">
@@ -67,20 +73,29 @@
                 somos clientes, entregadores e empreendedores. Somos o pessoal da cozinha e a turma da tecnologia. Um
                 ecossistema com 80 milhões de pedidos no app, que conecta mais de 250 mil entregadores e 350 mil
                 estabelecimentos e movimenta 0,53% do PIB do país.</p>
-            <button>Conheça nossa comunidade</button>
+            <button class="button">Conheça nossa comunidade</button>
         </div>
-        <img src="ao_redordamesa2.png">
+        <picture>
+            <source media="(min-width: 900px)" srcset="ao_redordamesa2.png">
+            <source media="(max-width: 900px)" srcset="ao_redordamesa2315.png">
+            <img src="ao_redordamesa2.png">
+        </picture>
+        
     </div>
 
         <div class="impacto">
-            <img src="deliverysustentavel2.png">
+            <picture>
+                <source media="(min-width: 900px)" srcset="deliverysustentavel2.png">
+                <source media="(max-width: 900px)" srcset="deliverysustentavel2315.png">
+                <img src="deliverysustentavel2.png">
+            </picture>
             <div class="texto1">
             <h1>Geramos impacto social
                 e ambiental.</h1>
             <p>Estamos sempre em busca de conexões com pessoas e iniciativas que ajudam a construir um país mais
                 próspero e justo para todos. Por isso, temos compromissos com o delivery sustentável, com a inclusão de
                 mais brasileiros no mercado de tecnologia e com a educação que alimenta o futuro.</p>
-            <button>Conheça nossos compromissos</button>
+            <button class="button">Conheça nossos compromissos</button>
         </div>
     </div>
         </div>
@@ -89,27 +104,29 @@
             <p>iFood News</p>
             <h1>Fique por dentro de todas as notícias e novidades do iFood!</h1>
             <div class="blog">
-                <div id="news">
-                    <img src="luana-768x1024.jpg">
+                <div class="news0">
+                   <!-- <img src="luana-768x1024.jpg"> -->
                     <h1>iFood tem inscrições abertas para Meu Diploma do Ensino Médio </h1>
                     <p>Saiba mais sobre o programa que ajudou mais de 6.000 entregadores a terminar os estudos</p>
 
                 </div>
-                <div id="news">
-                    <img src="forum-restaurantes-ifood-1024x576.png">
+                <div class="news0">
+                    <!--<img src="forum-restaurantes-ifood-1024x576.png">-->
                     <h1>Fórum de Restaurantes: iFood promove escuta ativa de parceiros  </h1>
                     <p>Saiba mais sobre o programa que ajudou mais de 6.000 entregadores a terminar os estudos</p>
 
                 </div>
-                <div id="news">
-                    <img src="intolerancia-ifood-1024x576.png">
+                <div class="news0">
+                    <!--<img src="intolerancia-ifood-1024x576.png">-->
                     <h1>iFood adere a campanha de combate à discriminação religiosa no RJ </h1>
                     <p>Empresas vão usar a tecnologia para conscientizar o público sobre a diversidade religiosa</p>
 
                 </div>
 
             </div>
-            <button>Acesse o iFood News</button>
+            <div id="acesso">
+            <button >Acesse o iFood News</button>
+        </div>
         </div>
 
     </main>
